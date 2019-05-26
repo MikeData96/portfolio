@@ -1,60 +1,48 @@
 /* GENERAL STYLES START */
 header {
     background-image: url(..//img/header.jpg);
-    
-
-
-
-
-
-
+    margin: 0%;
 }
 
-nav {
+nav#menu {}
+
+nav#menu ul {
     background-color: #0a8df0;
-    display: flex;
-    justify-content: center;
-    
-
-}
-section {
-    display: flex;
-    justify-content: center;
+    margin: 0;
+    text-align: center;
 }
 
-body {
+nav#menu ul li.menu-item {
+    display: inline-block;
+    padding: 5px;
+    line-height: 70px;
 }
+
+hr {}
 
 p {
     
-
-
+    padding: 60px;
+    line-height: 10px;
+    color: black;
 }
 
-h1 {color: #0a8df0;}
-
-h2 {}
-
-
-/* GENERAL STYLES END */
 
 
 
-
-
-
-
-
-
-
-/* header start */
 header#header {
-    display: flex;
-    height: 70vh;
+    color: #0a8df0;
+    text-align: center;
+    height: 80vh;
     justify-content: center;
-
+    margin: 0%;
+    padding: 50px;
 }
 
-#header .main-content {}
 
-/* header end */
+
+section#omnie {
+text-align: center;
+
+
+}
